@@ -3,7 +3,9 @@ import {features} from "../constants"
 
 const FeatureSection = () => {
     return (
+        
         <div className='relative border-b mt-20 min-h-[800px]'>
+            
             <div className="text-center"><span className='bg-neutral-900 text-blue-600 px-2 py-2 text-lg font-medium '>FEATURES</span>
 
                 <h2 className='text-3xl lg:text-5xl mt-10 '>Simplify <span className='bg-gradient-to-r from-blue-400 to-blue-800 text-transparent bg-clip-text'>Dev Process</span></h2>
