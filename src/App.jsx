@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
 import ProcessFlow from './components/ProcessFlow'
+import Price from './components/Price'
+import Footer from './components/Footer'
  
 
 function App() {
@@ -15,7 +17,10 @@ function App() {
       <HeroSection />
       <FeatureSection />
       <ProcessFlow />
+      <Price />
+      <Footer />
       </div>
+      
       
     </>
   )
