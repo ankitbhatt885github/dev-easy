@@ -60,25 +60,25 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
+    
     text: "Code Snippet Library",
     description:
       "Save and organize your frequently used code snippets for quick reuse.",
   },
   {
-    icon: <Fingerprint />,
+   
     text: "Multi-Platform Compatibility",
     description:
       "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
   },
   {
-    icon: <ShieldHalf />,
+    
     text: "Real-Time Collaboration",
     description:
       "Work together with team members in real-time, sharing code, comments, and suggestions directly.",
   },
   {
-    icon: <BatteryCharging />,
+   
     text: "Version Control Integration",
     description:
       "Connect your DevEasy projects with GitHub, GitLab, or Bitbucket for seamless version control and code management.",

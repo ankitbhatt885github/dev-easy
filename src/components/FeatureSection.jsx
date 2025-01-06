@@ -1,10 +1,11 @@
 import React from 'react'
 import {features} from "../constants"
+import { Lightbulb } from 'lucide-react'
 
 const FeatureSection = () => {
     return (
         
-        <div className='relative border-b mt-20 min-h-[800px]'>
+        <div className='relative  mt-20'>
             
             <div className="text-center"><span className='bg-neutral-900 text-blue-600 px-2 py-2 text-lg font-medium '>FEATURES</span>
 
@@ -15,8 +16,8 @@ const FeatureSection = () => {
                 {features.map((feature,index) => (
                     <div key={index} className='w-full sm:1/2 lg:w-1/2'>
                         <div className='flex'>
-                            <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-blue-500 items-center justify-center rounded-full">
-                                {feature.icon}
+                            <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-yellow-500 items-center justify-center rounded-full">
+                            <Lightbulb />
                                 
                                 </div>
                                 <div>
