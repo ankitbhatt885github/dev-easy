@@ -58,7 +58,7 @@ const Navbar = () => {
 
                         </ul> 
 
-                        <div className="mt-2 flex flex-col gap-4">
+                        <div className="mt-2 flex flex-col gap-2">
                         <a href="" className='rounded-md border px-2  py-2 text-center hover:bg-blue-500'>Sign In</a>
                         <a href="" className='rounded-md px-2 py-2 text-center bg-gradient-to-r from-blue-400 to-blue-800  '>Create Account</a>
                         </div>
