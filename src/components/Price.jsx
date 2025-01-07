@@ -11,13 +11,13 @@ const Price = () => {
 
                 {pricingOptions.map((option, index) => (
                     <div key={index} className='w-full sm:w-1/2 lg:w-1/3 p-2'>
-                        <div className="p-6 border border-gray-300 rounded-xl bg-gradient-to-r from-gray-800 to-gray-500 hover:border-blue-400 transform hover:scale-105 transition-all duration-300">
+                        <div className="p-6 border border-gray-300 rounded-xl bg-gradient-to-r from-gray-800 to-gray-600 hover:border-blue-400 transform hover:scale-105 transition-all duration-300">
                             <p className='text-4xl mb-8'>{option.title}
 
                                 {option.title === "Plus" && <span className=' text-blue-400 text-xl'>(Most Popular)</span>}
                             </p>
 
-                            <p className='mb-8'>
+                            <p className='mb-8 '>
                                 <span className='text-5xl mt-6 mr-2'>{option.price}</span>
                                 <span className='text-gray-400'>/Month</span>
                             </p>
@@ -35,7 +35,7 @@ const Price = () => {
 
                             </ul>
 
-                            <a href="#" className='inline-flex border p-2 rounded-lg text-center justify-center w-full items-center text-xl mt-20 hover:bg-blue-600 transition duration-200 '>Join Now</a>
+                            <a href="#" className='inline-flex border p-2 rounded-lg text-center justify-center w-full items-center text-xl mt-20 hover:bg-blue-600 transition duration-200 font-medium '>Join Now</a>
                         </div>
                     </div>
                 ))}

@@ -30,7 +30,7 @@ const Navbar = () => {
 
                     </ul>
                     <div className="hidden lg:flex justify-center items-center gap-6">
-                        <a href="" className='rounded-md border px-3 py-2 hover:bg-blue-500 '>Sign In</a>
+                        <a href="" className='rounded-md border px-3 py-2 hover:bg-blue-600'>Sign In</a>
 
                         <a href="" className='bg-gradient-to-r from-blue-400 to-blue-800 px-3 py-2 rounded-md'>Create an Account</a>
 
