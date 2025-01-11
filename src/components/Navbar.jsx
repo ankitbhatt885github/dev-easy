@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="sticky top-0 z-50 border-b py-3 backdrop-blur-lg border-blue-300">
+        <nav className="sticky top-0 z-50 border-b py-3 backdrop-blur-lg border-blue-300  shadow-lg shadow-blue-600/70">
             <div className="container px-4 mx-auto">
 
                 <div className="flex justify-between items-center">
