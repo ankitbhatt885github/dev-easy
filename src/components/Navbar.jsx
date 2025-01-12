@@ -23,7 +23,7 @@ const Navbar = () => {
                     <ul className='hidden lg:flex ml-14 space-x-12 '>
 
                         {navItems.map((item, index) => (
-                            <li className='hover:text-blue-300' key={index}>
+                            <li className='hover:text-blue-400' key={index}>
                                 <a href={item.href}>{item.label}</a>
                             </li>
                         ))}
