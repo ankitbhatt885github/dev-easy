@@ -11,7 +11,7 @@ const Price = () => {
 
                 {pricingOptions.map((option, index) => (
                     <div key={index} className='w-full sm:w-1/2 lg:w-1/3 p-2'>
-                        <div className="p-6 border border-gray-300 rounded-xl bg-gradient-to-r from-gray-800 to-gray-600 hover:border-blue-400 transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-blue-600/30  ">
+                        <div className="p-6 border border-gray-300 rounded-xl bg-gradient-to-b from-gray-800 to-gray-600 hover:border-blue-400 transform hover:scale-100 transition-all duration-300 hover:shadow-lg hover:shadow-blue-600">
                             <p className='text-4xl mb-8'>{option.title}
 
                                 {option.title === "Plus" && <span className=' text-blue-400 text-xl'>(Most Popular)</span>}
