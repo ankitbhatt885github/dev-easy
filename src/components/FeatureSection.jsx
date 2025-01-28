@@ -22,7 +22,7 @@ const FeatureSection = () => {
                                 </div>
                                 <div>
                                     <h5>{feature.text}</h5>
-                                    <p className='text-md p-2 mb-20 text-gray-500'>{feature.description}</p>
+                                    <p className='text-md pt-2 mb-20 text-gray-500'>{feature.description}</p>
                                 </div>
                                 
                                 

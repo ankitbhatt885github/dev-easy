@@ -17,13 +17,13 @@ const ProcessFlow = () => {
             <div className="pt-12 w-full lg:w-1/2">
             {checklistItems.map((item,index) => (
                 <div key={index} className='flex mb-12'> 
-                <div className='text-green-400 mx-6 h-10 w-10 rounded-full items-center justify-start'>
+                <div className='text-green-300 mx-6 h-10 w-10 rounded-full items-center justify-start'>
                     <CheckCircle2 />
                     
                     </div>
                     
                     <div>
-                        <h5 className='mt-1 mb-2 text-xl'>{item.title} </h5>
+                        <h5 className=' mb-2 text-xl'>{item.title} </h5>
                         <p className='text-gray-500 text-md'>{item.description}</p>
                     </div>
                     
